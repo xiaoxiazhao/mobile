@@ -1,0 +1,179 @@
+html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background-color: #f1f1f1;
+	padding-bottom: calc(90rem/75);
+}
+
+.commodity-info{
+	padding:calc(26rem/75)  calc(30rem/75);
+	color: #444444;
+	background-color: #fff;
+}
+
+.commodity-info .commodity-image{
+	width: calc(176rem/75);
+	height: calc(176rem/75);
+	border:calc(2rem/75) solid #e2e2e2;
+	margin-right:calc(30rem/75);
+}
+
+.commodity-info .commodity-other{
+	min-width: calc(487rem/75);
+}
+
+.commodity-info .commodity-name{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #323232;
+}
+
+.commodity-info .commodity-price{
+	margin-top:calc(37rem/75);
+	color: #444;
+}
+
+.commodity-info .commodity-price span{
+	color: #ff4b4b;
+}
+
+.commodity-info .commodity-num{
+	margin-top:calc(10rem/75);
+	color: #444444;
+}
+
+.commodity-info .btn{
+	text-align: center;
+	line-height: calc(36rem/75);
+}
+
+.service-progress{
+	margin-top: calc(10rem/75);
+	padding-top:calc(56rem/75);
+	background-color: #fff; 
+	border-top:1px solid #c6c6c6;
+	border-bottom:1px solid #c6c6c6;
+}
+
+.progress-line{
+	flex: 1;
+	-webkit-flex:1;
+	-moz-flex:1;
+	-ms-flex:1;
+	-o-flex:1;
+	position: relative;
+	text-align: center;
+	padding-bottom: calc(40rem/75);
+}
+
+.progress-list .line:before{
+	width: calc(248rem/75);
+	height: calc(3rem/75);
+	background-color: #cacaca;
+	position:absolute;
+	top:calc(6rem/75);
+	left: 50%;
+	display: block;
+	content: "";
+}
+
+.progress-list .line.active:before{
+	width: calc(248rem/75);
+	height: calc(3rem/75);
+	background-color: #ff9a41;
+	position:absolute;
+	top:calc(6rem/75);
+	left: 50%;
+	display: block;
+	content: "";
+}
+
+.progress-line .circle{
+	width: calc(13rem/75);
+	height: calc(13rem/75);
+	background-color: #cacaca;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.progress-line .time{
+	color: #919191;
+}
+
+.progress-line .status{
+	color: #b8b8b8;
+	margin-top: calc(14rem/75);
+}
+
+.progress-line.active .circle{
+	background-color: #ff9a41;
+}
+
+.progress-line.active .status{
+	color: #3b3b3b;
+}
+
+.progress-line.active .time{
+	color: #919191;
+}
+
+.progress-content{
+	padding:calc(26rem/75)  calc(30rem/75);
+	color: #3b3b3b;
+	background-color: #fffbed;
+}
+
+.progress-content .reback-price{
+	color: #ec3c3c;
+}
+
+.service-describe{
+	padding:0 calc(30rem/75);
+	background-color: #fff;
+	border-top:1px solid #c6c6c6;
+	margin-top: calc(10rem/75);
+}
+
+.service-describe .tit{
+	padding:calc(26rem/75) 0 calc(12rem/75);
+	border-bottom:calc(2rem/75) solid #d6d6d6; 
+	color: #444444;
+}
+
+.describe-list .describe-content{
+	color: #353535;
+	margin-top:calc(30rem/75);
+}
+
+.describe-images .img-item{
+	width:calc(164rem/75);
+	height:calc(164rem/75);
+	background-color: #e4e4e4;
+	margin-top: calc(28rem/75);
+	margin-right: calc(30rem/75);
+}
+
+.footer-btn{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	height: calc(90rem/75);
+	line-height: calc(90rem/75);
+	background-color:#f86262;
+	color: #fff;
+	text-align: center;
+}

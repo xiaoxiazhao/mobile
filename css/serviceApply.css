@@ -1,4 +1,3 @@
-
 html{
 	width: 100%;
 	height: 100%;
@@ -113,4 +112,16 @@ html{
 	margin-top:calc(10rem/75);
 	text-align: center;
 	color: #999999;
+}
+
+.footer-btn{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	height: calc(90rem/75);
+	line-height: calc(90rem/75);
+	background-color:#f86262;
+	color: #fff;
+	text-align: center;
 }
